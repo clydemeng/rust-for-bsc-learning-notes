@@ -19,7 +19,7 @@ RUST_LOG=info ./target/release/reth-bsc node \
 ``` sh
 RUST_LOG=info ./target/release/reth-bsc node \
 --chain bsc --http --http.api="eth, net, txpool, web3, rpc" --metrics 0.0.0.0:9001 \
---debug.tip 0xe468563fd42441b615ef6132474b2b6692fea05c7523356b79b8e5a414909360 \ 
+--debug.tip 0xe468563fd42441b615ef6132474b2b6692fea05c7523356b79b8e5a414909360 
 ```
 
 
